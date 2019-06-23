@@ -12,7 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build && cpx package.json build && cpx package-lock.json build && cpx e2e/**/*.js build/e2e && cpx jest.config.js build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "instrument": "nyc instrument static static-instrumented"
   },
   "eslintConfig": {
     "extends": "react-app"
