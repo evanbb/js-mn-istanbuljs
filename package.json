@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/evanbb/js-mn-istanbuljs/issues"
   },
-  "homepage": "https://github.com/evanbb/js-mn-istanbuljs#readme"
+  "homepage": "https://github.com/evanbb/js-mn-istanbuljs#readme",
+  "devDependencies": {
+    "glob": "^7.1.4"
+  }
 }
