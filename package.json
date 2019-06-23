@@ -8,6 +8,7 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
+    "e2e": "jest",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -27,5 +28,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "puppeteer": "^1.18.0"
   }
 }
