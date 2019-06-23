@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/evanbb/js-mn-istanbuljs#readme",
   "devDependencies": {
-    "glob": "^7.1.4"
+    "jest": "^24.8.0"
   }
 }
