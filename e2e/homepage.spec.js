@@ -23,3 +23,20 @@ it('displays a beautiful react logo', async () => {
 
   expect(logo).toBeTruthy();
 });
+
+it('changes text after clicking... sometimes...', async () => {
+  await page.goto('http://localhost:3000');
+
+  const button = await page.$('button');
+  const text = await page.evaluate(() =>
+    document.querySelector('button').innerText);
+
+  expect(text).toBe('click me!');
+
+  await button.click();
+
+  const newText = await page.evaluate(() =>
+    document.querySelector('button').innerText);
+
+  expect(newText === 'click me!' || newText === 'clicked!').toBeTruthy();
+});
