@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --inspect-brk node_modules/jest/bin/jest --coverage --runInBand",
+    "test": "jest --coverage",
     "instrument": "nyc instrument src src-instrumented"
   },
   "repository": {
