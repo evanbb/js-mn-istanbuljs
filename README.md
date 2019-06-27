@@ -12,4 +12,8 @@ Here are the slides from my talk at JavaScriptMN:
 
 https://docs.google.com/presentation/d/13nW9nSybiCrYTnAiwEzl24LL-vz6GspX1WjAp-QrrZU/edit?usp=sharing
 
+And here is the recording of the talk at JavaScriptMN:
+
+https://www.youtube.com/watch?v=2X_BIgWYRPc
+
 Enjoy!
